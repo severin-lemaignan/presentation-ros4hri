@@ -1,5 +1,5 @@
 %\documentclass[xcolor=table,handout,compress]{beamer}
-\documentclass[xcolor=table]{beamer}
+\documentclass[xcolor=table,aspectratio=169]{beamer}
 %--------------------------------------------------------------------------
 % Common packages
 %--------------------------------------------------------------------------
@@ -202,10 +202,10 @@
     Under \textbf{\texttt{/humans/faces/<faceID>/}} (eg \texttt{/humans/faces/bf3d}):
 
     \scriptsize
-    \begin{tabular}{@{}llp{4cm}@{}}
+    \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
         \toprule
 \textbf{Name} & \textbf{Message type}         & \textbf{Description}                                                \\ \midrule
-        \texttt{/roi       }   & \texttt{hri\_msgs/NormalizedRegi...} & Region of the face in the source image                              \\
+        \texttt{/roi       }   & \texttt{hri\_msgs/NormalizedRoI2D} & Region of the face in the source image                              \\
         \texttt{/cropped       }   & \texttt{sensor\_msgs/Image} & Cropped face                              \\
         \texttt{/frontalized       }   & \texttt{sensor\_msgs/Image} & Frontalised face                              \\
         \texttt{/landmarks }   & \texttt{hri\_msgs/FacialLandmarks    } & The 2D facial landmarks extracted from the face                     \\
@@ -221,10 +221,10 @@
     Under \textbf{\texttt{/humans/bodies/<bodyID>/}} (eg \texttt{/humans/bodies/5e4d}):
 
     \scriptsize
-    \begin{tabular}{@{}llp{4cm}@{}}
+    \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
         \toprule
         \textbf{Name} & \textbf{Message type}         & \textbf{Description}                                                \\ \midrule
-        \texttt{/roi       }   & \texttt{hri\_msgs/NormalizedRegi...} & Region of the whole body in the source image                              \\
+        \texttt{/roi       }   & \texttt{hri\_msgs/NormalizedRoI2D} & Region of the whole body in the source image                              \\
         \texttt{/cropped       }   & \texttt{sensor\_msgs/Image} & Cropped image of the body                              \\
         \texttt{/joint\_states       }   & \texttt{sensor\_msgs/JointState} & The joint state of the human body                              \\
         \texttt{/skeleton2d}   & \texttt{hri\_msgs/Skeleton2D}        & The 2D points of the detected skeleton                              \\
@@ -244,7 +244,7 @@
     Under \textbf{\texttt{/humans/voices/<voiceID>/}} (eg~\texttt{/humans/voices/dde2}):
 
     \scriptsize
-    \begin{tabular}{@{}llp{4cm}@{}}
+    \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
         \toprule
         \textbf{Name} & \textbf{Message type}         & \textbf{Description}                                                \\ \midrule
         \texttt{/audio       } & \texttt{audio\_common\_msgs/AudioData  } & Separated audio stream for this voice                     \\
@@ -261,7 +261,7 @@
     Under \textbf{\texttt{/humans/persons/<personID>/}} (eg~\texttt{/humans/persons/45ff}):
 
     \scriptsize
-    \begin{tabular}{@{}llp{4cm}@{}}
+    \begin{tabular}{@{}p{3cm}p{4cm}p{6cm}@{}}
         \toprule
         \textbf{Name} & \textbf{Message type}         & \textbf{Description}                                                \\ \midrule
         \texttt{/face\_id            } & \texttt{std\_msgs/String} (latched) & Face matched to that person (if any)                                                    \\
@@ -283,7 +283,7 @@
     Under \textbf{\texttt{/humans/groups/<groupID>/}} (eg~\texttt{/humans/groups/56ef2}):
 
     \scriptsize
-    \begin{tabular}{@{}llp{4cm}@{}}
+    \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
         \toprule
         \textbf{Name} & \textbf{Message type}         & \textbf{Description}                                                \\ \midrule
         \texttt{/members                } & \texttt{hri\_msgs/IdLists         }  & Person ID of the members of the group  \\
@@ -299,7 +299,7 @@
     Under \textbf{\texttt{/humans/interactions/}}:
 
     \scriptsize
-    \begin{tabular}{@{}llp{4cm}@{}}
+    \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
         \toprule
         \textbf{Name} & \textbf{Message type}         & \textbf{Description}                                                \\ \midrule
         \texttt{/gaze    } & \texttt{hri\_msgs/Gaze         }  & estimated gazing behaviours    \\
@@ -331,17 +331,15 @@
 \begin{frame}{Tooling}
 
 
-    \begin{center}
-    \includegraphics[width=8cm]{ros4hri/screenshot.jpg}
-    \end{center}
-
-    \vspace{1em}
 
     \begin{columns}
-        \begin{column}{0.5\linewidth}
-    \includegraphics[width=0.8\linewidth]{ros4hri/rqt_humans.png}
+        \begin{column}{0.6\linewidth}
+    \includegraphics[width=0.8\linewidth]{ros4hri/screenshot.jpg}
         \end{column}
-        \begin{column}{0.5\linewidth}
+        \begin{column}{0.4\linewidth}
+    \includegraphics[width=0.8\linewidth]{ros4hri/rqt_humans.png}
+            \vspace{1em}
+
     \includegraphics[width=6cm]{ros4hri/human_graph.png}
         \end{column}
     \end{columns}
@@ -392,8 +390,5 @@
         \end{columns}
     \end{frame}
 }
-
-\appendix
-\imageframe[scale=0.9]{pd_comparison}
 
 \end{document}

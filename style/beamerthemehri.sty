@@ -425,6 +425,13 @@
     \end{tikzpicture}%
 }
 
+
+\newcommand\toplogo[1]{%
+    \begin{tikzpicture}[remember picture,overlay]%
+        \node [xshift=-0.3cm,yshift=-1cm,anchor=east] at (current page.north east) {\includegraphics[height=1cm,keepaspectratio]{#1}};%
+    \end{tikzpicture}%
+}
+
 \newcommand\fullbackground[2][]{%
     \pgfkeys{/background, default, #1}%
     \setbeamertemplate{background}{

@@ -83,7 +83,7 @@
 % General presentation settings
 %--------------------------------------------------------------------------
 \title{\Large ROS for Human-Robot Interaction}
-\subtitle{Towards REP-155}
+\subtitle{What is the new REP-155?}
 \date{{\bf ROSCon} | Oct 2022}
 \author{Séverin Lemaignan}
 \institute{{\bf PAL Robotics} Senior Scientist AI \& Social Interactions}
@@ -125,6 +125,7 @@
 {
     \paper{Mohamed, Lemaignan, \textbf{ROS for Human-Robot Interaction}, IROS 2021}
 \begin{frame}{Why ROS4HRI?}
+    \toplogo{logo_bw}
 
     \begin{itemize}
         \item  dealing with humans is actually hard: they keep on disappearing/reappearing; hard to predict where/when; ‘shape’ known at run-time only, etc.
@@ -140,6 +141,7 @@
 {
     \paper{Mohamed, Lemaignan, \textbf{ROS for Human-Robot Interaction}, IROS 2021}
 \begin{frame}{Design requirements}
+    \toplogo{logo_bw}
 
     \begin{itemize}
         \item<1-> representations \textbf{application-agnostic}: from point-like crowd
@@ -152,25 +154,55 @@
             kinematics)}
     \end{itemize}
 \end{frame}
-
-\begin{frame}{Scope}
-    \begin{itemize}
-        \item<+-> set of new messages (\texttt{hri\_msgs})
-        \item<+-> topics naming convention
-        \item<+-> \texttt{tf} frames naming convention
-        \item<+-> (parametric) kinematic model of humans
-        \item<+-> (a few) global ROS parameters
-    \end{itemize}
-
-    \begin{itemize}
-        \item<+-> for now, focus on \emph{perception} only
-        \item<+-> initially, ROS1
-    \end{itemize}
-\end{frame}
 }
 
-\begin{frame}{Human representation: permanent vs transient IDs}
+%\begin{frame}{Scope}
+%    \begin{itemize}
+%        \item<+-> set of new messages (\texttt{hri\_msgs})
+%        \item<+-> topics naming convention
+%        \item<+-> \texttt{tf} frames naming convention
+%        \item<+-> (parametric) kinematic model of humans
+%        \item<+-> (a few) global ROS parameters
+%    \end{itemize}
+%
+%    \begin{itemize}
+%        \item<+-> for now, focus on \emph{perception} only
+%        \item<+-> initially, ROS1
+%    \end{itemize}
+%\end{frame}
 
+\begin{frame}{What is 'ROS4HRI'?}
+    \toplogo{logo_bw}
+
+    \vspace{-2em}
+    \begin{center}
+        \includegraphics<1>[width=\linewidth]{ros4hri/ecosystem_1}
+        \includegraphics<2>[width=\linewidth]{ros4hri/ecosystem_2}
+        \includegraphics<3>[width=\linewidth]{ros4hri/ecosystem_3}
+        \includegraphics<4>[width=\linewidth]{ros4hri/ecosystem_4}
+        \includegraphics<5>[width=\linewidth]{ros4hri/ecosystem_5}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Scope}
+    \toplogo{logo_bw}
+
+\begin{exampleblock}{}
+        For now, focus on \emph{perception} only
+\end{exampleblock}
+
+\pause
+
+\begin{exampleblock}{}
+    Initially, ROS1 only\newline (ROS2 support planned for next year)
+\end{exampleblock}
+\end{frame}
+
+
+\begin{frame}{Human representation: permanent vs transient IDs}
+    \toplogo{logo_bw}
+
+    \vspace{-1em}
         \includegraphics<1>[width=0.9\linewidth]{ros4hri/ids_0}
         \includegraphics<2>[width=0.9\linewidth]{ros4hri/ids_1}
         \includegraphics<3>[width=0.9\linewidth]{ros4hri/ids_2}
@@ -198,6 +230,7 @@
 %\end{frame}
 
 \begin{frame}{Topics structure: faces}
+    \toplogo{logo_bw}
 
     Under \textbf{\texttt{/humans/faces/<faceID>/}} (eg \texttt{/humans/faces/bf3d}):
 
@@ -217,6 +250,7 @@
 \end{frame}
 
 \begin{frame}{Topics structure: bodies}
+    \toplogo{logo_bw}
 
     Under \textbf{\texttt{/humans/bodies/<bodyID>/}} (eg \texttt{/humans/bodies/5e4d}):
 
@@ -240,6 +274,7 @@
 \end{frame}
 
 \begin{frame}{Topics structure: voices}
+    \toplogo{logo_bw}
 
     Under \textbf{\texttt{/humans/voices/<voiceID>/}} (eg~\texttt{/humans/voices/dde2}):
 
@@ -257,6 +292,7 @@
 \end{frame}
 
 \begin{frame}{Topics structure: persons}
+    \toplogo{logo_bw}
 
     Under \textbf{\texttt{/humans/persons/<personID>/}} (eg~\texttt{/humans/persons/45ff}):
 
@@ -279,6 +315,7 @@
 \end{frame}
 
 \begin{frame}{Topics structure: groups}
+    \toplogo{logo_bw}
 
     Under \textbf{\texttt{/humans/groups/<groupID>/}} (eg~\texttt{/humans/groups/56ef2}):
 
@@ -295,6 +332,7 @@
 \end{frame}
 
 \begin{frame}{Topics structure: interactions}
+    \toplogo{logo_bw}
 
     Under \textbf{\texttt{/humans/interactions/}}:
 
@@ -309,6 +347,7 @@
 \end{frame}
 
 \begin{frame}{Human physical representation}
+    \toplogo{logo_bw}
 
     \begin{columns}
         \begin{column}{0.4\linewidth}
@@ -329,15 +368,14 @@
 \end{frame}
 
 \begin{frame}{Tooling}
-
-
+    \toplogo{logo_bw}
 
     \begin{columns}
         \begin{column}{0.6\linewidth}
-    \includegraphics[width=0.8\linewidth]{ros4hri/screenshot.jpg}
+    \includegraphics[width=\linewidth]{ros4hri/screenshot.jpg}
         \end{column}
         \begin{column}{0.4\linewidth}
-    \includegraphics[width=0.8\linewidth]{ros4hri/rqt_humans.png}
+    \includegraphics[width=0.95\linewidth]{ros4hri/rqt_humans.png}
             \vspace{1em}
 
     \includegraphics[width=6cm]{ros4hri/human_graph.png}
@@ -350,6 +388,7 @@
 
 
 \begin{frame}{One possible pipeline (but other are possible!)}
+    \toplogo{logo_bw}
     \begin{center}
         \includegraphics[height=7cm]{ros4hri/ros4hri-pipeline2}
     \end{center}
@@ -358,36 +397,60 @@
 
 \imageframe[scale=0.95]{ros4hri/ros4hri-status.png}
 
+\begin{frame}{Next steps for the REP?}
+    \toplogo{logo_bw}
+    \begin{itemize}
+        \item<+-> REP-155 is currently an \emph{open} REP: to become a
+            \emph{accepted} recommendation, we need community feedback.
 
+        \item<+-> several PRs are under discussion: specification of
+            groups,\texttt{HRIHeader} instead of one topic per ID
+        \item<+-> However, right time to make your nodes REP-155-conformant, and to list them here:
+            \href{https://wiki.ros.org/hri}{wiki.ros.org/hri}
+        \item<+-> ...and we miss a good illustration for it! :wink: :wink:
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Three links to rule them all}
+    \toplogo{logo_bw}
+    \Large
+\begin{itemize}
+    \item Code: \textbf{\href{https://github.com/ros4hri/}{github.com/ros4hri}}
+    \item Documentation: \textbf{\href{https://wiki.ros.org/hri}{wiki.ros.org/hri}}
+    \item Feedback:\textbf{
+        \href{https://github.com/ros-infrastructure/rep/pulls?q=is\%3Apr+is\%3Aopen+155}{github.com/ros-infrastructure/rep}}
+    \end{itemize}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {
-    \fullbackground[color=black]{lastpage}
+    \fullbackground[color=black]{thank_you}
     \begin{frame}[plain]
-
-        \begin{columns}
-            \begin{column}{0.5\linewidth}
-            \end{column}
-            \begin{column}{0.5\linewidth}
-
-                \setbeamercolor{hriSec1Demo}{fg=white!70!black}
-                \vspace{14em}
-                \begin{beamercolorbox}[wd=\linewidth,ht=6ex,dp=0.7ex]{hriSec1Demo}
-                    \textbf{Thank you!}
-
-                    \vspace{4em}
-
-                    \footnotesize
-                    Slides:\\
-                    {\footnotesize\href{https://github.com/severin-lemaignan/presentation-ros4hri}{github.com/severin-lemaignan/presentation-ros4hri}}
-
-                    \vspace{2em}
-
-                    (btw, we are always looking for great people to join us: drop me line if you want to know more!)
-
-                \end{beamercolorbox}
-            \end{column}
-        \end{columns}
+%
+%        \begin{columns}
+%            \begin{column}{0.5\linewidth}
+%            \end{column}
+%            \begin{column}{0.5\linewidth}
+%
+%                \setbeamercolor{hriSec1Demo}{fg=white!70!black}
+%                \vspace{14em}
+%                \begin{beamercolorbox}[wd=\linewidth,ht=6ex,dp=0.7ex]{hriSec1Demo}
+%                    \textbf{Thank you!}
+%
+%                    \vspace{4em}
+%
+%                    \footnotesize
+%                    Slides:\\
+%                    {\footnotesize\href{https://github.com/severin-lemaignan/presentation-ros4hri}{github.com/severin-lemaignan/presentation-ros4hri}}
+%
+%                    \vspace{2em}
+%
+%                    (btw, we are always looking for great people to join us: drop me line if you want to know more!)
+%
+%                \end{beamercolorbox}
+%            \end{column}
+%        \end{columns}
     \end{frame}
 }
 

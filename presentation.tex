@@ -128,11 +128,14 @@
     \toplogo{logo_bw}
 
     \begin{itemize}
-        \item  dealing with humans is actually hard: they keep on disappearing/reappearing; hard to predict where/when; ‘shape’ known at run-time only, etc.
+        \item<+->  Dealing with humans is actually \textbf{hard}: they keep on
+            disappearing/reappearing; hard to predict where/when; `shape' known
+            at run-time only, etc.
 
-\item widely different requirements depending on application: from ‘2D points’ to full online kinematic model.
+        \item<+-> Widely different requirements depending on application: from
+            `2D points', to full online kinematic model
 
-    \item no ROS standard for HRI (nothing, nada, rien!)
+        \item<+-> No ROS standard for HRI (nothing, nada, rien!)
     \end{itemize}
 
 \end{frame}
@@ -144,17 +147,16 @@
     \toplogo{logo_bw}
 
     \begin{itemize}
-        \item<1-> representations \textbf{application-agnostic}: from point-like crowd
+        \item<1-> Representations \textbf{application-agnostic}: from point-like crowd
             simulation, to kineastetic teaching, to social interaction
-        \item<2-> does not enforce any specific algorithm or perception pipeline
-        \item<3-> however, takes into account what current algorithms can or can not
+        \item<2-> Does \textbf{not enforce any specific algorithm} or perception pipeline
+        \item<3-> However, takes into account what current algorithms can or can not
             do {\footnotesize (eg: kinematic model of human)}
-        \item<4-> integrated as much as possible with existing ROS conventions
+        \item<4-> Integrates as much as possible with existing ROS conventions
             {\footnotesize (eg: \texttt{robot\_state\_publisher} for human forward
             kinematics)}
     \end{itemize}
 \end{frame}
-}
 
 %\begin{frame}{Scope}
 %    \begin{itemize}
@@ -171,10 +173,10 @@
 %    \end{itemize}
 %\end{frame}
 
-\begin{frame}{What is 'ROS4HRI'?}
+\begin{frame}{So: What is `ROS4HRI'?}
     \toplogo{logo_bw}
 
-    \vspace{-2em}
+    \vspace{-3em}
     \begin{center}
         \includegraphics<1>[width=\linewidth]{ros4hri/ecosystem_1}
         \includegraphics<2>[width=\linewidth]{ros4hri/ecosystem_2}
@@ -183,18 +185,20 @@
         \includegraphics<5>[width=\linewidth]{ros4hri/ecosystem_5}
     \end{center}
 \end{frame}
+}
 
-\begin{frame}{Scope}
+\begin{frame}{Limited scope}
     \toplogo{logo_bw}
 
 \begin{exampleblock}{}
-        For now, focus on \emph{perception} only
+        For now, focus on \textbf{perception} only\newline
+        \footnotesize (research on the `behaviours' side just starting)
 \end{exampleblock}
 
 \pause
 
 \begin{exampleblock}{}
-    Initially, ROS1 only\newline (ROS2 support planned for next year)
+    Initially, \textbf{ROS1} only\newline \footnotesize(ROS2 support planned for next year)
 \end{exampleblock}
 \end{frame}
 
@@ -202,7 +206,7 @@
 \begin{frame}{Human representation: permanent vs transient IDs}
     \toplogo{logo_bw}
 
-    \vspace{-1em}
+    \vspace{-2.5em}
         \includegraphics<1>[width=0.9\linewidth]{ros4hri/ids_0}
         \includegraphics<2>[width=0.9\linewidth]{ros4hri/ids_1}
         \includegraphics<3>[width=0.9\linewidth]{ros4hri/ids_2}
@@ -232,7 +236,14 @@
 \begin{frame}{Topics structure: faces}
     \toplogo{logo_bw}
 
-    Under \textbf{\texttt{/humans/faces/<faceID>/}} (eg \texttt{/humans/faces/bf3d}):
+    Currently tracked faces: \textbf{\texttt{/humans/faces/tracked}}
+    [\texttt{hri\_msgs/IdsList}]
+
+    \vspace{1em}
+
+    \pause
+
+    Then, under \textbf{\texttt{/humans/faces/<faceID>/}} (eg \texttt{/humans/faces/bf3d}):
 
     \scriptsize
     \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
@@ -252,7 +263,11 @@
 \begin{frame}{Topics structure: bodies}
     \toplogo{logo_bw}
 
-    Under \textbf{\texttt{/humans/bodies/<bodyID>/}} (eg \texttt{/humans/bodies/5e4d}):
+    \textbf{\texttt{/humans/bodies/tracked}}
+    [\texttt{hri\_msgs/IdsList}]
+
+    \vspace{1em}
+    \textbf{\texttt{/humans/bodies/<bodyID>/}} (eg \texttt{/humans/bodies/5e4d}):
 
     \scriptsize
     \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
@@ -276,7 +291,11 @@
 \begin{frame}{Topics structure: voices}
     \toplogo{logo_bw}
 
-    Under \textbf{\texttt{/humans/voices/<voiceID>/}} (eg~\texttt{/humans/voices/dde2}):
+    \textbf{\texttt{/humans/voices/tracked}}
+    [\texttt{hri\_msgs/IdsList}]
+
+    \vspace{1em}
+    \textbf{\texttt{/humans/voices/<voiceID>/}} (eg~\texttt{/humans/voices/dde2}):
 
     \scriptsize
     \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
@@ -294,7 +313,17 @@
 \begin{frame}{Topics structure: persons}
     \toplogo{logo_bw}
 
-    Under \textbf{\texttt{/humans/persons/<personID>/}} (eg~\texttt{/humans/persons/45ff}):
+    \textbf{\texttt{/humans/persons/known}}
+    [\texttt{hri\_msgs/IdsList}]
+
+    \textbf{\texttt{/humans/persons/tracked}}
+    [\texttt{hri\_msgs/IdsList}]
+
+
+    \vspace{1em}
+    \pause
+
+    \textbf{\texttt{/humans/persons/<personID>/}} (eg~\texttt{/humans/persons/45ff}):
 
     \scriptsize
     \begin{tabular}{@{}p{3cm}p{4cm}p{6cm}@{}}
@@ -316,8 +345,12 @@
 
 \begin{frame}{Topics structure: groups}
     \toplogo{logo_bw}
+    \textbf{\texttt{/humans/groups/tracked}}
+    [\texttt{hri\_msgs/IdsList}]
 
-    Under \textbf{\texttt{/humans/groups/<groupID>/}} (eg~\texttt{/humans/groups/56ef2}):
+    \vspace{1em}
+
+    \textbf{\texttt{/humans/groups/<groupID>/}} (eg~\texttt{/humans/groups/56ef2}):
 
     \scriptsize
     \begin{tabular}{@{}p{2.5cm}p{4.5cm}p{6cm}@{}}
@@ -327,7 +360,7 @@
 \bottomrule
 \end{tabular}
 
-    \vspace{1em}\textbf{Attention:} not yet in the REP-155!
+    \vspace{1em}\textbf{Attention:} extension not yet in the REP-155!
     
 \end{frame}
 
@@ -386,9 +419,26 @@
 
 
 
-
-\begin{frame}{One possible pipeline (but other are possible!)}
+\begin{frame}{Next steps for the REP?}
     \toplogo{logo_bw}
+    \begin{itemize}
+        \item<+-> REP-155 is currently an \emph{open} REP: to become an
+            \emph{accepted} recommendation, we need community feedback.
+
+        \item<+-> several PRs are under discussion: specification of
+            groups, \texttt{HRIHeader} instead of one topic per ID,...
+        \item<+-> However, right time to make your nodes REP-155-conformant!
+            (and to add them to
+            \href{https://wiki.ros.org/hri}{wiki.ros.org/hri})
+        \item<+-> ...and we miss a good illustration for ROS4HRI! Josh? :wink: :wink:
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Start building your pipelines!}
+    \toplogo{logo_bw}
+
+    \vspace{-2em}
     \begin{center}
         \includegraphics[height=7cm]{ros4hri/ros4hri-pipeline2}
     \end{center}
@@ -396,20 +446,6 @@
 
 
 \imageframe[scale=0.95]{ros4hri/ros4hri-status.png}
-
-\begin{frame}{Next steps for the REP?}
-    \toplogo{logo_bw}
-    \begin{itemize}
-        \item<+-> REP-155 is currently an \emph{open} REP: to become a
-            \emph{accepted} recommendation, we need community feedback.
-
-        \item<+-> several PRs are under discussion: specification of
-            groups,\texttt{HRIHeader} instead of one topic per ID
-        \item<+-> However, right time to make your nodes REP-155-conformant, and to list them here:
-            \href{https://wiki.ros.org/hri}{wiki.ros.org/hri}
-        \item<+-> ...and we miss a good illustration for it! :wink: :wink:
-    \end{itemize}
-\end{frame}
 
 
 \begin{frame}{Three links to rule them all}
@@ -421,6 +457,14 @@
     \item Feedback:\textbf{
         \href{https://github.com/ros-infrastructure/rep/pulls?q=is\%3Apr+is\%3Aopen+155}{github.com/ros-infrastructure/rep}}
     \end{itemize}
+
+    \vspace{2em}
+    \begin{center}
+        \includegraphics[width=0.5cm]{style/twitter}\hspace{1em}\texttt{\#ROS4HRI}
+
+        \footnotesize (and on Sunday: ROS4HRI tutorial @IROS. Join if you can!)
+    \end{center}
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

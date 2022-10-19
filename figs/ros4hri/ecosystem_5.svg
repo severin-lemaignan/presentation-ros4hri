@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 453.54 255.12"
+   version="1.1"
+   id="svg149"
+   sodipodi:docname="ecosystem_5.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata153">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview151"
+     showgrid="false"
+     inkscape:zoom="2.3012074"
+     inkscape:cx="281.87529"
+     inkscape:cy="167.35773"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g995" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        font-size: 8.62px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: FlamaBook, Helvetica-Bold, Helvetica;
+      }
+
+      .cls-1, .cls-10 {
+        fill: #cb5880;
+      }
+
+      .cls-1, .cls-11 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-size: 7.66px;
+      }
+
+      .cls-2, .cls-12 {
+        fill: #7997e2;
+      }
+
+      .cls-3 {
+        font-size: 7.45px;
+      }
+
+      .cls-3, .cls-13, .cls-5, .cls-6, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-14, .cls-6 {
+        fill: #71ada5;
+      }
+
+      .cls-15 {
+        fill: #f1b167;
+      }
+
+      .cls-4, .cls-16 {
+        fill: #b470c4;
+      }
+
+      .cls-5, .cls-11, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke: #cb5880;
+      }
+
+      .cls-7, .cls-17 {
+        fill: #ec9a4b;
+      }
+
+      .cls-18 {
+        fill: #b9d3f6;
+      }
+
+      .cls-9 {
+        font-size: 8.17px;
+      }
+    </style>
+  </defs>
+  <g
+     class="cls-13"
+     id="g147">
+    <g
+       id="svg8">
+      <path
+         class="cls-17"
+         d="M352.06,130.56c0-34.56-27.02-62.91-61.04-65.09-.18-2.12-1.94-3.79-4.1-3.79s-3.91,1.66-4.1,3.77c-34.11,2.08-61.23,30.48-61.23,65.1s27.07,62.97,61.13,65.09c.18,2.12,1.94,3.78,4.1,3.78s3.92-1.67,4.1-3.78c34.07-2.13,61.13-30.5,61.13-65.09Zm-61.16,64.09c-.31-1.98-2.01-3.5-4.07-3.5s-3.76,1.52-4.07,3.5c-33.53-2.11-60.16-30.04-60.16-64.09s26.69-62.04,60.26-64.1c.31,1.98,2.01,3.5,4.07,3.5s3.76-1.51,4.07-3.49c33.48,2.16,60.07,30.07,60.07,64.09s-26.64,61.98-60.16,64.09Z"
+         id="path6" />
+      <path
+         class="cls-12"
+         d="M332.64,120.62c0-2.29-1.85-4.14-4.14-4.14-.12,0-.24,.03-.35,.04-5.43-15.93-19.81-27.75-37.12-29.41-.15-2.15-1.92-3.85-4.11-3.85s-3.95,1.69-4.11,3.83c-17.4,1.59-31.87,13.43-37.32,29.42-.11,0-.22-.03-.34-.03-2.29,0-4.14,1.85-4.14,4.14,0,1.73,1.07,3.21,2.58,3.83-.28,2-.44,4.04-.44,6.11,0,12.79,5.53,24.32,14.33,32.31-.33,.59-.53,1.26-.53,1.99,0,2.29,1.85,4.14,4.14,4.14,1.15,0,2.18-.47,2.93-1.22,6.64,4.08,14.44,6.44,22.79,6.44s16.47-2.46,23.2-6.7c.76,.9,1.88,1.48,3.15,1.48,2.29,0,4.14-1.85,4.14-4.14,0-.88-.28-1.7-.76-2.37,8.56-7.98,13.92-19.33,13.92-31.93,0-2.07-.16-4.11-.44-6.1,1.52-.61,2.6-2.1,2.6-3.84Zm-3.16,9.94c0,12.3-5.24,23.4-13.6,31.19-.73-.63-1.67-1.03-2.71-1.03-2.29,0-4.14,1.85-4.14,4.14,0,.66,.17,1.27,.44,1.82-6.57,4.13-14.33,6.54-22.65,6.54s-15.71-2.28-22.18-6.24c.37-.62,.6-1.34,.6-2.12,0-2.29-1.85-4.14-4.14-4.14-1.2,0-2.27,.52-3.02,1.33-8.55-7.81-13.92-19.03-13.92-31.49,0-1.99,.15-3.94,.41-5.86,.19,.03,.38,.06,.58,.06,2.29,0,4.14-1.85,4.14-4.14,0-1.82-1.18-3.35-2.81-3.9,5.35-15.54,19.44-27.05,36.37-28.62,.33,1.95,2.02,3.45,4.07,3.45s3.73-1.48,4.07-3.43c16.85,1.64,30.85,13.13,36.18,28.62-1.62,.56-2.8,2.08-2.8,3.9,0,2.29,1.85,4.14,4.14,4.14,.19,0,.38-.03,.56-.06,.26,1.92,.41,3.87,.41,5.86Z"
+         id="path8" />
+      <path
+         class="cls-16"
+         d="M395.22,130.56c0-36.1-17.74-68.13-44.96-87.84,.22-.51,.35-1.07,.35-1.65,0-2.29-1.85-4.14-4.14-4.14-1.17,0-2.22,.49-2.97,1.27-16.5-10.16-35.91-16.03-56.67-16.03-59.77,0-108.39,48.63-108.39,108.4,0,1.2,.03,2.39,.07,3.58-2.08,.22-3.7,1.96-3.7,4.09,0,2.29,1.85,4.14,4.14,4.14,.05,0,.1-.01,.14-.01,5.9,54.24,51.97,96.6,107.75,96.6,28.26,0,54.02-10.88,73.34-28.65,.65,.43,1.43,.68,2.27,.68,2.29,0,4.14-1.85,4.14-4.14,0-.83-.25-1.59-.66-2.23,18.17-19.39,29.31-45.44,29.31-74.05Zm-215.16,11.64c1.73-.5,3.01-2.07,3.01-3.96,0-2.09-1.56-3.8-3.57-4.08-.04-1.19-.07-2.39-.07-3.59,0-59.22,48.18-107.4,107.39-107.4,20.54,0,39.74,5.8,56.07,15.84-.35,.61-.57,1.31-.57,2.06,0,2.29,1.85,4.14,4.14,4.14,1.34,0,2.51-.64,3.27-1.63,26.93,19.53,44.49,51.25,44.49,86.99,0,28.3-11.01,54.07-28.96,73.28-.74-.7-1.73-1.13-2.83-1.13-2.29,0-4.14,1.85-4.14,4.14,0,1.08,.43,2.06,1.11,2.8-19.13,17.57-44.62,28.31-72.58,28.31-55.29,0-100.94-41.99-106.76-95.76Z"
+         id="path10" />
+      <path
+         class="cls-14"
+         d="M373.64,130.56c0-10.25-1.79-20.08-5.06-29.21,1.27-.71,2.13-2.04,2.13-3.6,0-2.29-1.85-4.14-4.14-4.14-.39,0-.76,.07-1.12,.17-13.87-29.54-43.9-50.04-78.63-50.04s-64.76,20.51-78.63,50.05c-.37-.11-.75-.18-1.15-.18-2.29,0-4.14,1.85-4.14,4.14,0,1.57,.88,2.91,2.16,3.61-3.27,9.13-5.06,18.96-5.06,29.2,0,46.5,36.74,84.57,82.71,86.72,.19,2.11,1.94,3.76,4.1,3.76s3.91-1.66,4.1-3.76c45.97-2.15,82.71-40.22,82.71-86.72Zm-82.74,85.71c-.3-1.99-2-3.51-4.08-3.51s-3.77,1.53-4.08,3.51c-45.43-2.14-81.74-39.76-81.74-85.71,0-10.11,1.77-19.81,4.99-28.82,.33,.09,.68,.15,1.04,.15,2.29,0,4.14-1.85,4.14-4.14,0-1.52-.83-2.84-2.06-3.56,13.72-29.18,43.38-49.44,77.7-49.44s63.98,20.25,77.7,49.43c-1.24,.71-2.09,2.04-2.09,3.58,0,2.29,1.85,4.14,4.14,4.14,.37,0,.73-.07,1.07-.16,3.23,9.02,5,18.72,5,28.83,0,45.95-36.31,83.58-81.74,85.71Z"
+         id="path12" />
+      <text
+         class="cls-3"
+         transform="translate(46.55 167.61)"
+         id="text16">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan14">specification</tspan>
+      </text>
+      <text
+         class="cls-3"
+         transform="translate(46.52 183.89)"
+         id="text20">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan18">core interfaces</tspan>
+      </text>
+      <text
+         class="cls-3"
+         transform="translate(46.52 198.72)"
+         id="text24">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan22">core libraries</tspan>
+      </text>
+      <text
+         class="cls-3"
+         transform="translate(46.69 213.56)"
+         id="text28">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan26">visualisation and tooling</tspan>
+      </text>
+      <text
+         class="cls-9"
+         transform="translate(46.52 229.87)"
+         id="text32">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan30">open ecosystem</tspan>
+      </text>
+      <rect
+         class="cls-10"
+         x="33.15"
+         y="161.42"
+         width="8.26"
+         height="8.26"
+         id="rect34" />
+      <rect
+         class="cls-18"
+         x="33.15"
+         y="176.93"
+         width="8.26"
+         height="8.26"
+         id="rect36" />
+      <rect
+         class="cls-15"
+         x="33.15"
+         y="192.44"
+         width="8.26"
+         height="8.26"
+         id="rect38" />
+      <rect
+         class="cls-14"
+         x="33.15"
+         y="207.95"
+         width="8.26"
+         height="8.26"
+         id="rect40" />
+      <rect
+         class="cls-16"
+         x="33.15"
+         y="223.46"
+         width="8.26"
+         height="8.26"
+         id="rect42" />
+      <text
+         class="cls-1"
+         transform="translate(269.13 133.94)"
+         id="text46">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan44">REP-155</tspan>
+      </text>
+      <circle
+         class="cls-11"
+         cx="286.82"
+         cy="130.56"
+         r="21.58"
+         id="circle48" />
+      <text
+         class="cls-7"
+         transform="translate(277.55 58.97)"
+         id="text52">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan50">libhri</tspan>
+      </text>
+      <text
+         class="cls-5"
+         transform="translate(193.41 89.75)"
+         id="text56">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan54">hri_rviz</tspan>
+      </text>
+      <text
+         class="cls-5"
+         transform="translate(334.42 89.75)"
+         id="text60">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan58">roshumans (TBD)</tspan>
+      </text>
+      <text
+         class="cls-7"
+         transform="translate(277.55 206.84)"
+         id="text64">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan62">pyhri</tspan>
+      </text>
+      <text
+         class="cls-5"
+         transform="translate(255.19 229.61)"
+         id="text68">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan66">rqt_human_radar</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(270.49 80.97)"
+         id="text72">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan70">tf frames</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(228.12 115.07)"
+         id="text76">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan74">hri_msgs</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(317.22 114.21)"
+         id="text80">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan78">topics</tspan>
+      </text>
+      <text
+         class="cls-2"
+         transform="translate(270.49 80.97)"
+         id="text84">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan82">tf frames</tspan>
+      </text>
+      <text
+         class="cls-2"
+         transform="translate(228.12 115.07)"
+         id="text88">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan86">hri_msgs</tspan>
+      </text>
+      <text
+         class="cls-2"
+         transform="translate(317.22 114.21)"
+         id="text92">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan90">topics</tspan>
+      </text>
+      <text
+         class="cls-6"
+         transform="translate(193.41 89.75)"
+         id="text96">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan94">hri_rviz</tspan>
+      </text>
+      <text
+         class="cls-6"
+         transform="translate(334.42 89.75)"
+         id="text100">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan98">roshumans (TBD)</tspan>
+      </text>
+      <text
+         class="cls-6"
+         transform="translate(255.19 229.61)"
+         id="text104">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan102">rqt_human_radar</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(338.58 220.33)"
+         id="text112">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan110">hri_fullbody</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(310.46 34.97)"
+         id="text116">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan114">hri_person_manager</tspan>
+      </text>
+      <text
+         class="cls-4"
+         transform="translate(151.77 152.14)"
+         id="text120">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan118">hri_face_detect</tspan>
+      </text>
+      <text
+         class="cls-4"
+         transform="translate(338.58 220.33)"
+         id="text124">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan122">hri_fullbody</tspan>
+      </text>
+      <text
+         class="cls-4"
+         transform="translate(310.46 34.97)"
+         id="text128">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan126">hri_person_manager</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(215.56 176.4)"
+         id="text132">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan130">human_description</tspan>
+      </text>
+      <text
+         class="cls-8"
+         transform="translate(295.05 176.34)"
+         id="text136">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan134">global parameters</tspan>
+      </text>
+      <text
+         class="cls-2"
+         transform="translate(215.56 176.4)"
+         id="text140">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan138">human_description</tspan>
+      </text>
+      <text
+         class="cls-2"
+         transform="translate(295.05 176.34)"
+         id="text144">
+        <tspan
+           x="0"
+           y="0"
+           id="tspan142">global parameters</tspan>
+      </text>
+      <text
+         id="text964"
+         transform="translate(151.77 152.14)"
+         class="cls-4">
+        <tspan
+           id="tspan962"
+           y="0"
+           x="0">hri_face_detect</tspan>
+      </text>
+      <g
+         id="g983">
+        <circle
+           r="4.2423658"
+           cy="44.292919"
+           cx="221.69057"
+           id="path960"
+           style="opacity:1;fill:#b470c4;fill-opacity:1;stroke:none;stroke-width:1.67717624;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <text
+           style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#b470c4;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           y="36.765781"
+           x="205.00291"
+           id="text968"
+           class="cls-4">
+          <tspan
+             style="stroke:#ffffff;stroke-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+             id="tspan966"
+             y="36.765781"
+             x="205.00291">your node!</tspan>
+        </text>
+        <text
+           class="cls-4"
+           id="text976"
+           x="205.00291"
+           y="36.765781"
+           style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#b470c4;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;">
+          <tspan
+             x="205.00291"
+             y="36.765781"
+             id="tspan974"
+             style="stroke:none;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;">your node!</tspan>
+        </text>
+      </g>
+      <text
+         style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#ffffff"
+         y="36.765781"
+         x="205.00291"
+         id="text972"
+         class="cls-4">
+        <tspan
+           id="tspan970"
+           y="36.765781"
+           x="205.00291"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaMedium;-inkscape-font-specification:FlamaMedium;fill:#ffffff" />
+      </text>
+      <g
+         id="g995"
+         transform="translate(172.51813,95.167434)">
+        <circle
+           style="opacity:1;fill:#b470c4;fill-opacity:1;stroke:none;stroke-width:1.67717624;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle985"
+           cx="221.69057"
+           cy="44.292919"
+           r="4.2423658" />
+        <text
+           class="cls-4"
+           id="text989"
+           x="209.00291"
+           y="58.765781"
+           style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#b470c4;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+          <tspan
+             x="209.00291"
+             y="58.765781"
+             id="tspan987"
+             style="stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">your node!</tspan>
+        </text>
+        <text
+           style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#b470c4;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+           y="58.765781"
+           x="209.00291"
+           id="text993"
+           class="cls-4">
+          <tspan
+             style="stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan991"
+             y="58.765781"
+             x="209.00291">your node!</tspan>
+        </text>
+      </g>
+      <g
+         transform="translate(3.9109867,176.42912)"
+         id="g1007">
+        <circle
+           r="4.2423658"
+           cy="44.292919"
+           cx="221.69057"
+           id="circle997"
+           style="opacity:1;fill:#b470c4;fill-opacity:1;stroke:none;stroke-width:1.67717624;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <text
+           style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#b470c4;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           y="56.765781"
+           x="205.00291"
+           id="text1001"
+           class="cls-4">
+          <tspan
+             style="stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan999"
+             y="56.765781"
+             x="205.00291">your node!</tspan>
+        </text>
+        <text
+           class="cls-4"
+           id="text1005"
+           x="205.00291"
+           y="56.765781"
+           style="font-size:7.65999985px;font-family:FlamaBook, Helvetica-Bold, Helvetica;fill:#b470c4;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none">
+          <tspan
+             x="205.00291"
+             y="56.765781"
+             id="tspan1003"
+             style="stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">your node!</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
